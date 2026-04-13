@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 56px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  font-size: .65rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.links {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.link {
+  font-size: .8rem;
+  font-weight: 400;
+  color: var(--text-dim);
+  text-decoration: none;
+  letter-spacing: .04em;
+  transition: color .15s;
+}
+
+.link:hover {
+  color: var(--text);
+}
+
+.active {
+  color: var(--cin);
+}

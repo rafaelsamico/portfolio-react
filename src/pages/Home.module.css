@@ -1,0 +1,55 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.label {
+  font-size: .65rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--cin);
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.bio, .text {
+  font-size: .9rem;
+  color: var(--text-mid);
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.contacts {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.chip {
+  font-size: .75rem;
+  border: 1px solid var(--border-hi);
+  padding: .3rem .8rem;
+  border-radius: 2px;
+  color: var(--text-mid);
+  font-weight: 300;
+}

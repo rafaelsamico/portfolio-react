@@ -1,0 +1,77 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.card:hover {
+  border-color: var(--border-hi);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
+
+.discipline {
+  font-size: .65rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--cin);
+  font-weight: 500;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.text {
+  font-size: .85rem;
+  color: var(--text-mid);
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-top: .25rem;
+}
+
+.tech {
+  font-size: .7rem;
+  color: var(--text-mid);
+  border: 1px solid var(--border-hi);
+  padding: .3rem .7rem;
+  border-radius: 1px;
+  font-weight: 300;
+}
+
+.links {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-top: .25rem;
+}
+
+.link {
+  font-size: .75rem;
+  font-weight: 500;
+  color: var(--cin);
+  text-decoration: none;
+  border: 1px solid var(--border-hi);
+  padding: .35rem .85rem;
+  border-radius: 2px;
+  transition: all .2s;
+}
+
+.link:hover {
+  background: var(--cin-dim);
+  border-color: var(--cin);
+}
