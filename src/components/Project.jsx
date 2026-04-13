@@ -5,9 +5,10 @@ function Project({ project }) {
     <div className={styles.card}>
       <p className={styles.discipline}>{project.discipline}</p>
       <h3 className={styles.title}>{project.title}</h3>
-      <p className={styles.text}>{project.description}</p>
-      <p className={styles.text}>{project.objective}</p>
-      <p className={styles.text}>{project.learnings}</p>
+
+      <p className={styles.text}>
+        {[project.description, project.objective, project.learnings].join(' • ')}
+      </p>
 
       <div className={styles.stack}>
         {project.stack.map(tech => (
