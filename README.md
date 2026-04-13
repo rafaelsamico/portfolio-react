@@ -1,14 +1,10 @@
 # README.md
 
-Rafael Samico
-rsd2@cin.ufpe.br
+**Rafael Samico** · rsd2@cin.ufpe.br
 
 Este repositório é produto de uma prática de React da disciplina CIN0136 - Desenvolvimento de Software.
-A seguir, uma reflexão sobre o meu aprendizado.
 
 # Reflexão
-
----
 
 ## Explicação da escolha da abordagem de construção
 
