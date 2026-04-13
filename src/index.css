@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
 
+/* CSS reset */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* CSS set */
+body {
+  background: var(--bg);
+  font-family: var(--font-body);
+  color: var(--text);
 }
 
 :root {
@@ -22,10 +30,4 @@
   /* fontes */
   --font-display: 'Libre Baskerville', serif;
   --font-body:    'DM Sans', sans-serif;
-}
-
-body {
-  background: var(--bg);
-  font-family: var(--font-body);
-  color: var(--text);
 }
